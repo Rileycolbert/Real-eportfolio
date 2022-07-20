@@ -211,6 +211,10 @@ PROJECTS
     margin-bottom: 60px;
 }
 
+.project {
+    margin-bottom: 135px;
+}
+
 .project__img {
     width: 100%;
     transition: all 450ms ease;
@@ -278,4 +282,28 @@ PROJECTS
 .project__wrapper:hover .project__wrapper--background {
     opacity: 0.7;
     
+}
+
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo {
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+}
+
+.footer__link--list {
+    display: flex;
 }
