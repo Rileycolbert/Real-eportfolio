@@ -9,7 +9,6 @@
 
 a {
     text-decoration: none;
-    position: relative;
 }
 
 p {
@@ -203,6 +202,23 @@ HEADER
 
 /* 
 
+MODAL
+
+*/
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1100px;
+    height: 700px;
+    box-shadow: 0px 20px 80px 0 rgb (0, 0, 0, 0.55);
+}
+
+/* 
+
 PROJECTS 
 
 */
@@ -330,6 +346,10 @@ footer {
 FOOTER EFFECT 
 
 */
+
+.link__hover-effect {
+    position: relative;
+}
 
 .link__hover-effect:after {
 position: absolute;
