@@ -387,6 +387,7 @@ animation: spinner 750ms infinite linear;
   font-weight: 700;
   text-align: center;
   padding: 28px;
+  z-index: -1;
 }
 
 .modal__exit {
