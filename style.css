@@ -390,6 +390,10 @@ animation: spinner 750ms infinite linear;
   z-index: -1;
 }
 
+.modal__overlay--visible {
+    z-index: 1;
+}
+
 .modal__exit {
     position: absolute;
     right: 40px;
