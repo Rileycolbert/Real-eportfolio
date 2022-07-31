@@ -620,3 +620,79 @@ transition: all 300ms ease;
 .link__hover-effect--white:after {
     background-color: white;
 } 
+
+
+/*
+
+SHAPES
+
+
+Shapes on the first row
+Height = 35vh
+
+Shapes on the second row
+Height = 70vh
+
+Shapes on the third row
+Height = 95vh
+
+Shapes on first column
+Width = 5vw
+
+Shapes on second column
+Width = 50vw
+
+Shapes on second column
+Width = 80vw
+
+*/
+
+.shape {
+  position: fixed;
+}
+
+.shape--0 {
+  top: 15vh;
+  left: 5vw;
+}
+
+.shape--1 {
+  top: 15vh;
+  left: 50vw;
+}
+
+.shape--2 {
+  top: 15vh;
+  left: 80vw;
+}
+
+.shape--3 {
+  top: 50vh;
+  left: 5vw;
+}
+
+.shape--4 {
+  top: 50vh;
+  left: 50vw;
+}
+
+.shape--5 {
+  top: 50vh;
+  left: 80vw;
+}
+
+.shape--6 {
+  top: 80vh;
+  left: 5vw;
+}
+
+.shape--7 {
+  top: 80vh;
+  left: 50vw;
+}
+
+.shape--8 {
+  top: 80vh;
+  left: 80vw;
+}
+
