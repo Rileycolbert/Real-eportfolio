@@ -557,6 +557,7 @@ FOOTER
 */
 
 footer {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -696,3 +697,15 @@ Width = 80vw
   left: 80vw;
 }
 
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 768px) {
+.title {
+    font-size: 80px;
+}
+
+.header__para {
+    font-size: 20px;
+}
+
+
+}
